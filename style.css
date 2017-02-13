@@ -1,0 +1,670 @@
+/*FONTS*/
+@font-face {
+    font-family: NeutraText-BookAlt;
+    src: url('fonts/NeutraText-BookAlt.ttf');
+}
+@font-face {
+    font-family: NeutraText-BookSCItalic;
+    src: url('fonts/NeutraText-BookSCItalic.ttf');
+}
+@font-face {
+    font-family: NeutraText-DemiSC;
+    src: url('fonts/NeutraText-DemiSC.ttf');
+}
+@font-face {
+    font-family: NeutraText-LightAlt;
+    src: url('fonts/NeutraText-LightAlt.ttf');
+}
+@font-face {
+    font-family: NeutraText-LightItalic;
+    src: url('fonts/NeutraText-LightItalic.ttf');
+}
+
+
+
+
+
+/*MAIN ITEMS*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+h1{
+	font-family: NeutraText-DemiSC;
+	font-size: 30pt;
+	text-align: left;
+	color: #2d917f;
+}
+
+h2{
+	font-family: NeutraText-BookAlt;
+	font-size: 18pt;
+	line-height: 10pt;
+	text-align: center;
+	color: #2d917f;
+}
+
+h3{
+	font-family: NeutraText-BookAlt;
+	font-size: 14pt;
+	line-height: 10pt;
+	text-align: center;
+	color: #2d917f;
+}
+p{
+	font-family: NeutraText-BookAlt;
+}
+h4{
+	float: right;
+	padding-right: 10%;
+	font-family: NeutraText-BookAlt;
+	font-size: 20pt;
+	padding-top: 2%;
+	color: white;
+}
+h5{
+	font-family: NeutraText-BookAlt;
+	font-size: 10pt;
+	line-height: 15pt;
+	text-align: right;
+	color: #2d917f;
+}
+h6{
+	font-family: NeutraText-DemiSC;
+	font-size: 15pt;
+	text-align: left;
+	color: #2d917f;
+	line-height: 5pt;
+}
+
+
+
+/*HEADER*/
+header {
+    position: fixed;
+    width: 100%;
+    height: 20%;
+    margin-left: -0.6%;
+    margin-top: 1%;
+    background-color: #2d917f;
+    opacity: 0.4;
+    z-index: 6;
+}
+
+.logoheader{
+	width: 96px;
+	z-index: 888;
+	position:fixed;
+	padding-left: 7%;
+	padding-top: 2%;
+}
+#logohead{
+	float: right;
+	padding-right: 5%;
+	padding-top: 3%;
+}
+a{
+	color: white;
+}
+#ondergrond{
+	background-color: white;
+	width: 100%;
+	height: 20%;
+	margin-top: 1%;
+	position: fixed;
+	box-shadow: 5px 5px 10px #fff;
+	z-index: 5;
+	left: -0.2%;
+	opacity: 0.9;
+}
+nav{
+	width: 40%;
+	float: left;
+}
+ul{
+	padding-top: 4%;
+}
+li{
+	padding-left: 34%;
+	list-style-type: none;
+	font-family: NeutraText-BookAlt;
+	width: 30%;
+}
+#talen{
+	float: left;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+/*ALL ARTICLES*/
+#article1, #article2, #article3, #article4, #article5, #article{
+	/*background-image: url("images/bg1.jpg");*/
+	width: 100%;
+	height: 100vh;
+	padding-top: 10%;
+    margin: 0 auto;
+}
+
+
+#article{
+	background-image: url("images/bg.png");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	position: absolute;
+	z-index: 3;
+	top: 0;
+}
+
+/*ARTICLE1*/
+#article1{
+	background-image: url("images/bg6.png");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    top: 0;
+}
+/* Slideshow container */
+.slideshow-container {
+	position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  left: -0.1%;
+  top: 0;
+
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 10s;
+  animation-name: fade;
+  animation-duration: 10s;
+}
+
+@-webkit-keyframes fade {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
+}
+
+@keyframes fade {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
+}
+
+#logopg1{
+	margin-top: 5%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.infopg1{
+	z-index: 9;
+    position: relative fixed;}
+
+   #pagestop{
+   	position: absolute;
+   	bottom: 0;
+   }
+
+
+
+
+
+/*ARTICLE2*/
+#article2{
+	height: 100%;
+	width: 100%;
+	/*background-image: url("images/bg2.jpg");*/
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100%;
+    padding-bottom: 20%;
+    clear: both;
+    top: 100%;
+
+}
+#contentspec{
+	width: 85%;
+	margin: 0 auto;
+	height: 100%;
+}
+
+#titels{
+	width: 20%;
+	font-family: NeutraText-BookAlt;
+	font-size: 15pt;
+	text-align: right;
+	color: #2d917f;
+		position: absolute;
+	top: 137%;
+}
+iframe{
+	width: 60%;
+	height: 435px;
+	float: right;
+	position: absolute;
+	top: 133%;
+	left: 30%;
+	z-index: 0;
+	border: none;
+	overflow: scroll;
+}
+#titellinks{
+	color: #2d917f;
+	display: block;
+	padding-bottom: 4%;
+	font-size: 14pt;
+}
+#titels a{
+	padding-bottom: 3%;
+}
+
+
+
+
+
+/*ARTICLE3*/
+#article3{
+	height: 100%;
+	width: 100%;
+	background-image: url("images/bg3.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	clear: both;
+}
+#titels1{
+	width: 20%;
+	font-family: NeutraText-BookAlt;
+	font-size: 15pt;
+	text-align: right;
+	color: #2d917f;
+	position: absolute;
+	top: 200%;
+	padding-top: 15%;
+
+}
+#team{
+	width: 70%;
+	height: 600px;
+	float: right;
+	position: absolute;
+	left: 30%;
+	overflow: scroll;
+	top: 200%;
+	padding-top: 15%;
+
+}
+.teams{
+	font-size: 22pt;
+	color: #2d917f;
+	line-height: 34pt;
+}
+.teams1{
+	font-size: 18pt;
+	color: #2d917f;
+	display: block;
+}
+.prak{
+	padding-top:5%;
+}
+#titelspec2{
+	text-align: right;
+}
+#naam{
+	color: #2d917f;
+	font-size: 15pt;
+	width: 100%;
+}
+
+/*ARTICLE4*/
+#article4{
+	height: 60%;
+	position: absolute;
+	top: 440%;
+}
+#map {
+        height: 300px;
+        width: 40%;
+        float: left;
+        margin: 5%;
+}
+#infopage{
+	text-align: right;
+	font-family: NeutraText-LightAlt;
+	width: 20%;
+	float: left;
+	padding-left: 5%;
+	color: #2d917f;
+	line-height: 2%;
+	padding-top: 4%;
+}
+#contentinfo{
+	padding-top: 5%;
+	width: 80%;
+	margin: 0 auto;
+}
+#contentright{
+	float: left;
+	padding-top: 3%;
+	width: 20%;
+}
+#contentright a{
+	float: left;
+	width: 100%;
+	
+}
+
+
+
+
+.email{
+	font-family: NeutraText-BookAlt;
+	color: #2d917f;
+}
+
+#links{
+	width: 25%;
+	float: left;
+}
+#rechts{
+	width: 25%;
+	float: right;
+}
+#tekstteam{
+	width: 300px;
+}
+#kaderteam{
+	width: 60%;
+}
+#uren{
+	margin-bottom: 2em;
+}
+.lijn{
+	text-decoration: underline;
+	font-family: NeutraText-BookAlt;
+	color: #2d917f;
+}
+
+#meerinfo p{
+	width: 100%;
+	height: 100%;
+	line-height: 14pt;
+
+}
+.leesmeer{
+	font-family: NeutraText-BookAlt;
+	color: #2d917f;
+	text-decoration: underline;
+	font-size: 12pt;
+	line-height: 12pt;
+
+}
+
+.leesmeer a{
+	text-decoration: underline;
+}
+#laad img{
+	padding-top: 10%;
+}
+
+/*ARTICLE5*/
+ #article5{
+ 	width: 100%;
+ 	height: 40%;
+ }
+ #gallery{
+ 	width: 100%;
+ 	padding-top: 15%;
+ 	margin: 0 auto;
+ 	padding-left: 5%;
+ 	position: absolute;
+ 	top: 350%;
+ }
+
+ #gallery img{
+ 	width: 18%;
+ }
+
+.pic:hover{
+	color: white;
+	opacity: 0.5;
+    box-shadow: 3px 3px 5px #888888;
+
+}
+
+@media screen and (min-width: 1300px) {
+
+/*ARTICLE4*/
+#article4{
+	height: 60%;
+	position: absolute;
+	top: 360%;
+}
+#map {
+        height: 300px;
+        width: 50%;
+        float: left;
+}
+#infopage{
+	text-align: right;
+	font-family: NeutraText-LightAlt;
+	width: 20%;
+	float: left;
+	padding-left: 15%;
+	color: #2d917f;
+	line-height: 2%;
+}
+#contentinfo{
+	padding-top: 5%;
+	width: 80%;
+	margin: 0 auto;
+}
+#contentright{
+	float: left;
+	padding-top: 3%;
+	width: 20%;
+}
+
+
+
+.email{
+	font-family: NeutraText-BookAlt;
+	color: #2d917f;
+}
+
+#links{
+	width: 25%;
+	float: left;
+}
+#rechts{
+	width: 25%;
+	float: right;
+}
+#tekstteam{
+	width: 300px;
+}
+#kaderteam{
+	width: 60%;
+}
+#uren{
+	margin-bottom: 2em;
+}
+.lijn{
+	text-decoration: underline;
+	font-family: NeutraText-BookAlt;
+	color: #2d917f;
+}
+
+#meerinfo p{
+	width: 100%;
+	height: 100%;
+	line-height: 14pt;
+
+}
+.leesmeer{
+	font-family: NeutraText-BookAlt;
+	color: #2d917f;
+	text-decoration: underline;
+	font-size: 12pt;
+	line-height: 12pt;
+
+}
+
+.leesmeer a{
+	text-decoration: underline;
+}
+
+/*ARTICLE5*/
+ #article5{
+ 	width: 100%;
+ 	height: 40%;
+ }
+ #gallery{
+ 	width: 100%;
+ 	padding-top: 15%;
+ 	margin: 0 auto;
+ 	padding-left: 5%;
+ 	position: absolute;
+ 	top: 260%;
+ }
+
+ #gallery img{
+ 	width: 18%;
+ }
+
+.pic:hover{
+	color: white;
+	opacity: 0.5;
+    box-shadow: 3px 3px 5px #888888;
+
+}
+
+
+/*HEADER*/
+header {
+    position: fixed;
+    width: 100%;
+    height: 18%;
+    margin-left: -0.6%;
+    margin-top: 1%;
+    background-color: #2d917f;
+    opacity: 0.4;
+    z-index: 6;
+}
+.logoheader{
+	width: 96px;
+	z-index: 888;
+	position: fixed;
+	padding-left: 5%;
+}
+#logohead{
+	float: right;
+	padding-top: 3%;
+	padding-right: 5%;
+}
+a{
+	color: white;
+}
+#ondergrond{
+	background-color: white;
+	width: 100%;
+	height: 18%;
+	margin-top: 1%;
+	position: fixed;
+	box-shadow: 5px 5px 10px #989898;
+	z-index: 5;
+}
+nav{
+	width: 40%;
+	float: left;
+}
+li{
+	padding-left: 24%;
+	list-style-type: none;
+	font-family: NeutraText-BookAlt;
+	width: 30%;
+}
+#talen{
+	float: left;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+#infopage{
+	text-align: right;
+	font-family: NeutraText-LightAlt;
+	width: 20%;
+	float: left;
+	padding-top: 5%;
+	padding-left: 10%;
+	color: #2d917f;
+	line-height: 2%;
+}
+#map {
+        height: 320px;
+        width: 40%;
+        margin: 3%;
+        float: left;
+}
+#team{
+	width: 50%;
+	height: 530px;
+	float: right;
+	position: absolute;
+	top: 172%;
+	left: 30%;
+
+}
+#titels1{
+	width: 20%;
+	font-family: NeutraText-BookAlt;
+	font-size: 15pt;
+	text-align: right;
+	color: #2d917f;
+	position: absolute;
+	top: 165%;
+	padding-top: 20%;
+
+}
+
+iframe{
+	width: 60%;
+	height: 435px;
+	float: right;
+	position: absolute;
+	top: 135%;
+	left: 30%;
+	z-index: 0;
+	border: none;
+	overflow: scroll;
+}
+
